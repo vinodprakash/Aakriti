@@ -1002,12 +1002,12 @@ h3.m_4{
 /* -- Media Queries Starts Here -- */
 @media only screen and (max-width : 1366px){
 .view {
-	width:290px;
-	height:200px;
+	width:390px;
+	height:300px;
 }
 .view .mask, .view .content {
-	width:290px;
-	height:200px;
+	width:390px;
+	height:300px;
 }
 }
 @media only screen and (max-width : 1024px){
@@ -1019,11 +1019,14 @@ h3.m_4{
 	height:150px;
 }
 .view .mask, .view .content {
-	width:238px;
+	width:338px;
 	height:150px;
 }
 .view-fourth h2 {
-	margin: 0px 40px 0px 40px;
+	margin: 0px 50px 0px 50px;
+}
+.updates {
+	font-size: 16px;
 }
 }
 @media only screen and (max-width :800px){
@@ -1036,7 +1039,7 @@ h3.m_4{
 	height:110px;
 }
 .view-fourth h2 {
-	margin: 0px 10px 0px 10px;
+	margin: 0px 40px 0px 40px;
 	font-size:13px;
 }
 }
