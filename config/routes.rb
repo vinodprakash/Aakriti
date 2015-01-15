@@ -6,7 +6,8 @@ Rails.application.routes.draw do
   get 'women/index'
 
   get 'home/index'
-
+  
+  get 'home/gallery'
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
