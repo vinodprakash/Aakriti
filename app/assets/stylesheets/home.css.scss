@@ -6,7 +6,7 @@
     margin: 80px 0px 80px 0px;
     }
 
-img {
+img.gall {
     margin: 10px 10px 10px 10px;
     -webkit-transform: scale(1, 1);
     -ms-transform: scale(1, 1);
@@ -15,7 +15,7 @@ img {
     -webkit-transition-duration: 0.3s; /* Safari */
     }
 
-img:hover {
+img:hover.gall {
 	cursor: pointer;
 	-webkit-transform: scale(2, 2);
     -ms-transform: scale(2, 2);
