@@ -2,9 +2,29 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
+
+
 .row {
     margin: 80px 0px 80px 0px;
     }
 
+img.gall {
+    margin: 10px 10px 10px 10px;
+    -webkit-transform: scale(1, 1);
+    -ms-transform: scale(1, 1);
+    transform: scale(1, 1);
+    transition-duration: 1.3s;
+    -webkit-transition-duration: 1.3s; /* Safari */
+    }
+
+img:hover.gall {
+	cursor: pointer;
+	-webkit-transform: scale(1,1);
+    -ms-transform: scale(1.5,1.5);
+    transform: scale(1.5,1.5 );
+    transition-duration: 1.3s;
+    -webkit-transition-duration: 1.3s; /* Safari */
+    z-index: 1;
+    }
 
 
