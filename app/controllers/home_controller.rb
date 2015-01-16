@@ -3,4 +3,7 @@ class HomeController < ApplicationController
   end
   def gallery
   end
+  def aboutus
+  	
+  end
 end
