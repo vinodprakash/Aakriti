@@ -6,4 +6,6 @@ class HomeController < ApplicationController
   def aboutus
   	
   end
+  def members 
+  end
 end
