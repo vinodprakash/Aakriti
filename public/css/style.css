@@ -1002,12 +1002,12 @@ h3.m_4{
 /* -- Media Queries Starts Here -- */
 @media only screen and (max-width : 1366px){
 .view {
-	width:290px;
-	height:200px;
+	width:350px;
+	height:250px;
 }
 .view .mask, .view .content {
-	width:290px;
-	height:200px;
+	width:350px;
+	height:250px;
 }
 }
 @media only screen and (max-width : 1024px){
