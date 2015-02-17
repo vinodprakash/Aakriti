@@ -1,17 +1,23 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Aakriti</title>
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
-  <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
-  <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
-  <%= csrf_meta_tags %>
-    <link rel="shortcut icon" href="/images/logo/fav1.ico">
-    
+<title>Aakriti</title>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
+<%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+<%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+<%= csrf_meta_tags %>
+<link rel="shortcut icon" href="/images/logo/fav1.ico">
+<link rel="stylesheet" type="text/css" href="/css/sidebar/normalize.css" />
+<link rel="stylesheet" type="text/css" href="/css/sidebar/demo.css" />
+<link rel="stylesheet" type="text/css" href="/css/sidebar/icons.css" />
+<link rel="stylesheet" type="text/css" href="/css/sidebar/component.css" />
+<script src="/js/sidebar/modernizr.custom.js"></script>
+
 </head>
 <body>
 
 <%= yield %>
-
+<script src="/js/sidebar/classie.js"></script>
+<script src="/js/sidebar/sidebarEffects.js"></script>
 </body>
 </html>
