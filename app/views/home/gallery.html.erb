@@ -26,6 +26,10 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 <!-- FlexSlider -->
 <script defer src="/js/jquery.flexslider.js"></script>
 <script src="/js/modernizr.js"></script>
+<link rel="stylesheet" type="text/css" href="/css/gallerynormalize.css" />
+        <link rel="stylesheet" type="text/css" href="/css/gallerydemo.css" />
+        <link rel="stylesheet" type="text/css" href="/css/gallerycomponent.css" />
+        <script src="/js/gallery/modernizr.min.js"></script>
 </head>
 <body>
 		<!-- Header starts here -->
@@ -47,6 +51,8 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 				</div>
 			</div>
 		<!-- Header ends here -->
+
+       
 		
 		<div class="container">
 		<div class="row">
@@ -378,6 +384,27 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 
                             </div>
 		<!-- Footer ends here-->
+        <script src="/js/gallery/classie.js"></script>
+        <script src="/js/gallery/photostack.js"></script>
+        <script>
+            // [].slice.call( document.querySelectorAll( '.photostack' ) ).forEach( function( el ) { new Photostack( el ); } );
+            
+            new Photostack( document.getElementById( 'photostack-1' ), {
+                callback : function( item ) {
+                    //console.log(item)
+                }
+            } );
+            new Photostack( document.getElementById( 'photostack-2' ), {
+                callback : function( item ) {
+                    //console.log(item)
+                }
+            } );
+            new Photostack( document.getElementById( 'photostack-3' ), {
+                callback : function( item ) {
+                    //console.log(item)
+                }
+            } );
+        </script>
         
 		</body>
 </html>     
