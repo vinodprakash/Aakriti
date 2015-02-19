@@ -30,67 +30,10 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 </head>
 <body>
 <!-- Header starts here -->
-<div class="header">
-	<div class="container">
-		<div class="logo">
-			<a href="/"><img src="/images/logo/logo.png" width="70" height="70"></a>
-		</div>
-		<div class="menu">
-			<a class="toggleMenu" href="#"><img src="images/nav_icon.png" alt="" /> </a>
-			<ul class="nav" id="nav">
-				<li><a href="/" class="scroll">Home</a></li>
-				<li><a href="/women/index" class="scroll">Women</a></li>
-				<li class="current"><a href="/trumpet/index" class="scroll">Trumpet</a></li>
-				<li><a href="/vogue/index" class="scroll">Vogue</a></li>
-				<li><a href="/home/gallery" class="scroll">Gallery</a></li> 
-			</ul>
-		</div>
-	</div>
-</div>
+<%= render '/layouts/header'%>
 <!-- Header ends here -->
-<div id="st-container" class="st-container">
-	<!--    
-		example menus 
-		these menus will be on top of the push wrapper
-	    -->
-	<br>
-	<nav class="st-menu st-effect-1" id="menu-1">
-		<br>
-		<br>
-		<h2 class="icon icon-lab">Aakriti</h2>
-		<ul>
+<%= render '/layouts/sidebar'%>
 
-			<li ><a href="/" class="scroll">Home</a></li>
-			<li ><a href="/women/index" class="scroll">Women</a></li>
-			<li class="current"><a href="/trumpet/index" class="scroll">Trumpet</a></li>
-			<li><a href="/vogue/index" class="scroll">Vogue</a></li>
-			<li><a href="/home/gallery" class="scroll">Gallery</a></li>   
-		</ul>
-	</nav>
-
-
-
-	<!-- content push wrapper -->
-	<div class="st-pusher">
-		<!--    
-		    example menus 
-		    these menus will be under the push wrapper
-		-->
-		<div class="st-content"><!-- this is the wrapper for the content -->
-			<div class="st-content-inner"><!-- extra div for emulating position:fixed of the menu -->
-				<!-- Top Navigation -->
-
-				<div class="main clearfix">
-					<div id="st-trigger-effects" class="column">
-						<button data-effect="st-effect-1">Menu </button>
-
-					</div>
-
-				</div><!-- /main -->
-			</div><!-- /st-content-inner -->
-		</div><!-- /st-content -->
-	</div><!-- /st-pusher -->
-</div><!-- /st-container -->
 <!-- Features starts here -->
 <div class= "container">
 	<div class="large-12 columns " data-equalizer-watch>
@@ -108,12 +51,12 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 					<div class="content">
 						<div class="content-inner">
 							<h3>AMUN</h3>
-							<p>Aakriti club of CEG conducted MODEL UNITED NATIONS conference over a period of three days, on the 23, 24 and 25 April 2013. 
+							<p align="justify">Aakriti club of CEG conducted MODEL UNITED NATIONS conference over a period of three days, on the 23, 24 and 25 April 2013. 
 							The chief guest was Nirupama Subramanian, journalist & Associate editor of Hindu gave a speech at the opening ceremony of AMUN’13 on April 23, 2013. </p>
-							<p>Chinmayi, Playback Singer &CEO of Blue Elephant graced the occasion with her presence as the guest of 
+							<p align="justify">Chinmayi, Playback Singer &CEO of Blue Elephant graced the occasion with her presence as the guest of 
 							honour.</p><br>
-							<p>The function was presided over by Prof.Dr.P.Kaliraj, the former Vice Chancellor of Anna University. The theme of the conference was “Empowering women as learners and leaders”. </p>
-							<p>The AMUN’13 conference had 5 committees discussing solutions to global problems ranging climate change to women illiteracy. The committees were ‘General Assembly’, ’Economic and Social Council’, ‘United Nations Educational, Scientific and Cultural Organisation’, ‘United Nations Human Rights Council’, and ’Commission of women’.</p>
+							<p align="justify">The function was presided over by Prof.Dr.P.Kaliraj, the former Vice Chancellor of Anna University. The theme of the conference was “Empowering women as learners and leaders”. </p>
+							<p align="justify">The AMUN’13 conference had 5 committees discussing solutions to global problems ranging climate change to women illiteracy. The committees were ‘General Assembly’, ’Economic and Social Council’, ‘United Nations Educational, Scientific and Cultural Organisation’, ‘United Nations Human Rights Council’, and ’Commission of women’.</p>
 							<br>
 							<ol>
 								<h4>
@@ -123,7 +66,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 								</h4>
 							</ol>
 							<br>
-							<p>The cause for this event was to help the Naam foundation headed by Mrs.Suhasini, wife of renowned film maker Mr.ManiRatnam. 
+							<p align="justify">The cause for this event was to help the Naam foundation headed by Mrs.Suhasini, wife of renowned film maker Mr.ManiRatnam. 
 							The Naam foundation mentors and motivates single women to stand on their own feet. Nearly 50 colleges and 500 delegates participated in the event.
 							</p>
 						</div>
@@ -139,9 +82,9 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 					<div class="content">
 						<div class="content-inner">
 							<h3>Walkathon, a walk for a cause.</h3>
-							<p>The Aakriti girl’s forum of CEG along with the Presidents of nearly 100 women’s colleges in Chennai conducted a walkathon to stress the importance of women’s literacy. The walkathon took place at the marina beach.</p>
-							<p>Vijayshanthi Builders sponsored the event along with Techofes’12. The chief guest was Shakeel Akhtar, I.G of Police. The special guests were Chinni Jayanth and Laxmi Ramakrishnan. Girl students from 100 government schools also participated in the walkathon and gave their support to this event. The students conveyed their support by carrying placard which emphasized the significance of women’s literacy.</p>
-							<p>
+							<p align="justify">The Aakriti girl’s forum of CEG along with the Presidents of nearly 100 women’s colleges in Chennai conducted a walkathon to stress the importance of women’s literacy. The walkathon took place at the marina beach.</p>
+							<p align="justify">Vijayshanthi Builders sponsored the event along with Techofes’12. The chief guest was Shakeel Akhtar, I.G of Police. The special guests were Chinni Jayanth and Laxmi Ramakrishnan. Girl students from 100 government schools also participated in the walkathon and gave their support to this event. The students conveyed their support by carrying placard which emphasized the significance of women’s literacy.</p>
+							<p align="justify">
 							T-Shirts emphasizing the importance of women’s literacy were worn by the college girls. The Walkathon started from Gandhi statue and terminated at the Anna Memorial. The Walkathon had a turnout of about 600 people. The Walkathon oath was taken by T.Abinaya, Aakriti founder along with the team members. The highlight of the Walkathon was graffiti by Aakriti Team at Besant Nagar Road. The media partner for this event was Makkal TV. </p>
 						</div>
 					</div>
@@ -156,7 +99,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 					<div class="content">
 						<div class="content-inner">
 							<h3>AAKRITI --- Joy of Giving Week !</h3>
-							<p>‘The Joy of Giving Week’ is a nation-wide philanthropic festival, where the whole nation comes together to do good deeds, either through material or time and is celebrated from the 2nd to the 8th of October every year. Aakriti, the official girls’ forum of CEG, having conducted a clothes collection drive the previous year, decided to continue with the tradition of conducting this event and organized ‘The Joy of Giving Week’ at CEG. The theme for this year was set as ‘Riceathon’ where students and faculty of the college were requested to donate rice or biscuit packets. The proceeds were to be donated to Avai Homes, a local orphanage situated in Adyar. At the end of the week, 250 kilograms of rice and 125 biscuit packets were collected. The forum also managed to collect 70 bars of soap, which the orphanage had requested.</p>
+							<p align="justify">‘The Joy of Giving Week’ is a nation-wide philanthropic festival, where the whole nation comes together to do good deeds, either through material or time and is celebrated from the 2nd to the 8th of October every year. Aakriti, the official girls’ forum of CEG, having conducted a clothes collection drive the previous year, decided to continue with the tradition of conducting this event and organized ‘The Joy of Giving Week’ at CEG. The theme for this year was set as ‘Riceathon’ where students and faculty of the college were requested to donate rice or biscuit packets. The proceeds were to be donated to Avai Homes, a local orphanage situated in Adyar. At the end of the week, 250 kilograms of rice and 125 biscuit packets were collected. The forum also managed to collect 70 bars of soap, which the orphanage had requested.</p>
 						</div>
 					</div>
 				</div>
@@ -170,7 +113,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 					<div class="content">
 						<div class="content-inner">
 							<h3>PHOTOSHOP WORKSHOP</h3>
-							<p>
+							<p align="justify">
 							The Photoshop workshop was conducted on 6th, 7th and 14th of October, 2012 only for GIRLS. It was conducted in Room No. 75 of the RED Building of CEG, Anna University from 2 to 5 pmon all the three days. The Workshop was conducted by Harish Sharavan - An expert onPhotoshop. The event was headed by AishwaryaBhargav, Nivedita Mahesh, ShireenSalma,Rajeswari.L and Padmavathy along with the contribution and support from the Workshop teamand Marketing team. A total of 31 girls participated in the Workshop. Each participant was giventhe knowledge of working in Photoshop which will be useful for them in various fields. All theparticipants who successfully attended the full course of the workshop were awarded withcertificates.
 							</p>
 						</div>
@@ -186,10 +129,10 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 					<div class="content">
 						<div class="content-inner">
 							<h3>SELF-DEFENCE WORKSHOP:</h3>
-							<p>Aakriti in collaboration with survival instincts conducted self defense workshop for the girls of CEG on 18th October 2013. Mr.AnoopMadhavan, CEO of survival instincts and his intern Steffy came and conducted the workshop. The girls were taught the difference between knowing martial arts and the basic stances for protecting themselves. It was ensured that all the girls realised it is not important to know martial arts to protect oneself when situation arises.
+							<p align="justify">Aakriti in collaboration with survival instincts conducted self defense workshop for the girls of CEG on 18th October 2013. Mr.AnoopMadhavan, CEO of survival instincts and his intern Steffy came and conducted the workshop. The girls were taught the difference between knowing martial arts and the basic stances for protecting themselves. It was ensured that all the girls realised it is not important to know martial arts to protect oneself when situation arises.
 							</p>
-							<p>There are four main self-defence strategies- psychological, technical, legal and physical. Mr.Anoop explained all these strategies with the help of a few girls. He laid importance on the most important step in self-defence- ESCAPE. He clearly explained that despite all best efforts, the smartest thing to do would be to leave the place immediately.</p>
-							<p>The girls were given a feedback form after the session. The session was conducted successfully with all the girls having learnt about self-defence.</p>
+							<p align="justify">There are four main self-defence strategies- psychological, technical, legal and physical. Mr.Anoop explained all these strategies with the help of a few girls. He laid importance on the most important step in self-defence- ESCAPE. He clearly explained that despite all best efforts, the smartest thing to do would be to leave the place immediately.</p>
+							<p align="justify">The girls were given a feedback form after the session. The session was conducted successfully with all the girls having learnt about self-defence.</p>
 						</div>
 					</div>
 				</div>
@@ -202,7 +145,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 					<div class="content">
 						<div class="content-inner">
 							<h3>CAREER GUIDANCE WORKSHOP.</h3>
-							<p>Aakriti organised career guidance workshop for girls in January 2014. The students were given guidance and introductions to various competitive examinations for post graduation in India and abroad. Examinations including GRE, GMAT, TOEFL, CAT, GATE, IELTS and TANCET were covered. Guidance about civil services examinations was also given. The workshop was a good success as the girls of CEG showed active participation in the workshop.</p>
+							<p align="justify">Aakriti organised career guidance workshop for girls in January 2014. The students were given guidance and introductions to various competitive examinations for post graduation in India and abroad. Examinations including GRE, GMAT, TOEFL, CAT, GATE, IELTS and TANCET were covered. Guidance about civil services examinations was also given. The workshop was a good success as the girls of CEG showed active participation in the workshop.</p>
 						</div>
 					</div>
 				</div>

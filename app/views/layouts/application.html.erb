@@ -12,12 +12,31 @@
 <link rel="stylesheet" type="text/css" href="/css/sidebar/icons.css" />
 <link rel="stylesheet" type="text/css" href="/css/sidebar/component.css" />
 <script src="/js/sidebar/modernizr.custom.js"></script>
-
+<link rel="stylesheet" type="text/css" href="/cssbg/default.css" />
+		<link rel="stylesheet" type="text/css" href="/css/bg/component.css" />
+		<script src="/js/bg/modernizr.custom.js"></script>
 </head>
 <body>
+<ul id="cbp-bislideshow" class="cbp-bislideshow">
+					<li><img src="/images/bg/1.jpg" alt="image01"/></li>
+					<li><img src="/images/bg/2.jpg" alt="image02"/></li>
+					<li><img src="/images/bg/3.jpg" alt="image03"/></li>
+					<li><img src="/images/bg/4.jpg" alt="image04"/></li>
+					<li><img src="/images/bg/5.jpg" alt="image05"/></li>
+					<li><img src="/images/bg/6.jpg" alt="image06"/></li>
+				</ul>
 
 <%= yield %>
 <script src="/js/sidebar/classie.js"></script>
 <script src="/js/sidebar/sidebarEffects.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+		<!-- imagesLoaded jQuery plugin by @desandro : https://github.com/desandro/imagesloaded -->
+		<script src="/js/bg/jquery.imagesloaded.min.js"></script>
+		<script src="/js/bg/cbpBGSlideshow.min.js"></script>
+		<script>
+			$(function() {
+				cbpBGSlideshow.init();
+			});
+		</script>
 </body>
 </html>

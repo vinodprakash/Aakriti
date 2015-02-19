@@ -32,67 +32,10 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 </head>
 <body>
 <!-- Header starts here -->
-<div class="header">
-	<div class="container">
-		<div class="logo">
-			<a href="/"><img src="/images/logo/logo.png" width="70" height="70"></a>					
-		</div>
-		<div class="menu">
-			<a class="toggleMenu" href="#"><img src="images/nav_icon.png" alt="" /> </a>
-			<ul class="nav" id="nav">
-				<li><a href="/" class="scroll">Home</a></li>
-				<li class="current"><a href="/women/index" class="scroll">Women</a></li>
-				<li><a href="/trumpet/index" class="scroll">Trumpet</a></li>
-				<li><a href="/vogue/index" class="scroll">Vogue</a></li>
-				<li><a href="/home/gallery" class="scroll">Gallery</a></li>								
-			</ul>
-		</div>
-	</div>
-</div>
+<%= render '/layouts/header'%>
 <!-- Header ends here -->
-<div id="st-container" class="st-container">
-	<!--    
-		example menus 
-		these menus will be on top of the push wrapper
-	    -->
-	<br>
-	<nav class="st-menu st-effect-1" id="menu-1">
-		<br>
-		<br>
-		<h2 class="icon icon-lab">Aakriti</h2>
-		<ul>
+<%= render '/layouts/sidebar'%>
 
-			<li ><a href="/" class="scroll">Home</a></li>
-			<li class="current"><a href="/women/index" class="scroll">Women</a></li>
-			<li><a href="/trumpet/index" class="scroll">Trumpet</a></li>
-			<li><a href="/vogue/index" class="scroll">Vogue</a></li>
-			<li><a href="/home/gallery" class="scroll">Gallery</a></li>   
-		</ul>
-	</nav>
-
-
-
-	<!-- content push wrapper -->
-	<div class="st-pusher">
-		<!--    
-		    example menus 
-		    these menus will be under the push wrapper
-		-->
-		<div class="st-content"><!-- this is the wrapper for the content -->
-			<div class="st-content-inner"><!-- extra div for emulating position:fixed of the menu -->
-				<!-- Top Navigation -->
-
-				<div class="main clearfix">
-					<div id="st-trigger-effects" class="column">
-						<button data-effect="st-effect-1">Menu </button>
-
-					</div>
-
-				</div><!-- /main -->
-			</div><!-- /st-content-inner -->
-		</div><!-- /st-content -->
-	</div><!-- /st-pusher -->
-</div><!-- /st-container -->
 <!-- Portfolio starts here -->
 <div class= "container" align="center">
 	<div class="content-row-class2">       

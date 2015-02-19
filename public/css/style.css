@@ -3,7 +3,8 @@ body{
 }
 /*-- Header part starts --*/
 .header{
-		background:#F2F2F2;
+		/* background:url("/images/testimonals.png") no-repeat scroll 0px 0px / cover transparent;;*/
+		background: #fff;
 		 padding: 1em 0;
 }
 .logo{
@@ -38,7 +39,7 @@ body{
     -webkit-border-radius:4px;
     -moz-border-radius:4px;
     -o-border-radius:4px;
-    padding:10px 10px;
+    
     background: #E95A62;
    -webkit-transition: all 0.3s ease;
 	-moz-transition: all 0.3s ease;
@@ -859,7 +860,7 @@ small{
    margin: 20px 0 0 0;
 }
 .view p {
-   font-family: Georgia, serif;
+   font-family: 'Source Sans Pro', sans-serif;
    font-style: italic;
    font-size: 12px;
    position: relative;

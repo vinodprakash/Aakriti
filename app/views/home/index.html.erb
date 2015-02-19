@@ -42,74 +42,17 @@ $('body').removeClass('loading');
 </head>
 <body>
 <!-- Header starts here -->
-<div class="header">
-	<div class="container">
-		<div class="logo">
-			<a href="/"><img src="/images/logo/logo.png" width="70" height="70"></a>
-		</div>
-		<div class="menu">
-			<a class="toggleMenu" href="#"><img src="/images/nav_icon.png" alt="" /> </a>
-			<ul class="nav" id="nav">
-				<li class="current"><a href="/" class="scroll">Home</a></li>
-				<li><a href="/women/index" class="scroll">Women</a></li>
-				<li><a href="/trumpet/index" class="scroll">Trumpet</a></li>
-				<li><a href="/vogue/index" class="scroll">Vogue</a></li>
-				<li><a href="/home/gallery" class="scroll">Gallery</a></li>									 
-			</ul>
-		</div>
-	</div>
-</div>
+<%= render '/layouts/header'%>
 <!-- Header ends here -->
 <!-- Banner starts here -->
-<div id="st-container" class="st-container">
-	<!-- 	
-				example menus 
-				these menus will be on top of the push wrapper
-			-->
-	<br>
-	<nav class="st-menu st-effect-1" id="menu-1">
-		<br>
-		<br>
-		<h2 class="icon icon-lab">Aakriti</h2>
-		<ul>
-
-			<li class="current"><a href="/" class="scroll">Home</a></li>
-			<li><a href="/women/index" class="scroll">Women</a></li>
-			<li><a href="/trumpet/index" class="scroll">Trumpet</a></li>
-			<li><a href="/vogue/index" class="scroll">Vogue</a></li>
-			<li><a href="/home/gallery" class="scroll">Gallery</a></li>	
-		</ul>
-	</nav>
-
-
-
-	<!-- content push wrapper -->
-	<div class="st-pusher">
-		<!-- 	
-					example menus 
-					these menus will be under the push wrapper
-				-->
-		<div class="st-content"><!-- this is the wrapper for the content -->
-			<div class="st-content-inner"><!-- extra div for emulating position:fixed of the menu -->
-				<!-- Top Navigation -->
-
-				<div class="main clearfix">
-					<div id="st-trigger-effects" class="column">
-						<button data-effect="st-effect-1">Menu </button>
-
-					</div>
-
-				</div><!-- /main -->
-			</div><!-- /st-content-inner -->
-		</div><!-- /st-content -->
-	</div><!-- /st-pusher -->
-</div><!-- /st-container -->
 <div class="banner">
+<%= render '/layouts/sidebar'%>
+
 	<div class="container">
 		<div class="slider-background">
 			<div class="row">
 				<div class="col-md-6">
-					<p style="font-size:18px; margin-left:5px;">
+					<p style="font-size:18px; margin-left:15px;" align="justify">
 
 					<i style="font-size:22px;"> </i>
 					<br>
@@ -168,7 +111,7 @@ $('body').removeClass('loading');
 
 			</div>
 
-			<section class="slider">
+		<!--	<section class="slider">
 				<div class="flexslider">
 					<ul class="slides">
 						<li>
@@ -191,7 +134,7 @@ $('body').removeClass('loading');
 						</li>
 					</ul>
 				</div>
-			</section>
+			</section> -->
 			<div class="banner-below-content">
 				<h3>Aakriti - Girls forum Presents <span>Spectacular events</span></h3>
 				<p>Come and See us here </p>
@@ -247,7 +190,7 @@ $('body').removeClass('loading');
 								</div>
 						</a> </div>
 					</div>
-					<div class="col-xs-4">
+					<div class="col-xs-3">
 						<div class="col_1_of_projects span_1_of_projects"><a href="#">
 								<div class="view view-fourth">
 									<img src="/images/home/noimage.jpg" class="img-responsive" />
