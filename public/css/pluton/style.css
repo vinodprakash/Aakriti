@@ -84,7 +84,6 @@ p {
     -moz-box-shadow: none;
     border: 1px solid #181A1C;
     box-shadow: none;
-    font-size:15px;
     text-shadow: none;
     color: #fff;
     transition: border-color 1s ease;
@@ -794,14 +793,7 @@ p {
 /*
 3.8 Footer
 ********************************************************************/
- .footer {
-    background: #181A1C;
-    text-align: center;
-}
-.footer > p {
-    color: #fff;
-    margin:0;
-}
+ 
 .scrollup {
     text-align:center;
     cursor:pointer;

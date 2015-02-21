@@ -27,305 +27,630 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 <script defer src="/js/jquery.flexslider.js"></script>
 <script src="/js/modernizr.js"></script>
 
+
 </head>
 <body>
-<!-- Header starts here -->
 <%= render '/layouts/header'%>
 
-<!-- Header ends here -->
 <%= render '/layouts/sidebar'%>
 
 
-<div class="container">
+<div class= "container" align="center">
+	<div class="content-row-class2">       
+		<h3 >Gallery </h3>    
+	</div>
+	<hr class="seperate">
+	<div class="col-sm-0.5"></div>
+	<div class="col-sm-122">
+		<!-- <div class="large-10 columns" data-equalizer-watch>-->
 
-	<div role="tabpanel">
 
-		<!-- Nav tabs -->
-		<ul class="nav nav-tabs" role="tablist">
-			<li role="presentation" class="active"><a href="#Walkathon" style="font-size:15px; font-color:#fff;" aria-controls="home" role="tab" data-toggle="tab">Walkathon</a></li>
-			<li role="presentation"><a href="#Inaugration" aria-controls="profile" role="tab" data-toggle="tab">Inaugration</a></li>
-			<li role="presentation"><a href="#Women2013" aria-controls="messages" role="tab" data-toggle="tab">Women's Day Celebration 2013</a></li>
-			<li role="presentation"><a href="#JoyofGiving" aria-controls="settings" role="tab" data-toggle="tab">Joy of Giving</a></li>
-			<li role="presentation"><a href="#TechofesWalkathon" aria-controls="messages" role="tab" data-toggle="tab">Techofes Walkathon</a></li>
-			<li role="presentation"><a href="#Women2014" aria-controls="settings" role="tab" data-toggle="tab">Women's Day Celebration 2014</a></li>
-		</ul>
+		<ul class="portfolio-filter">
+			<li><a class="btn btn-link active" href="" data-filter="*">All</a></li>
+			<li><a class="btn btn-link" href="" data-filter=".walk">Walkathon</a></li>
+			<li><a class="btn btn-link" href="" data-filter=".inaug">Inaugration</a></li>
+			<li><a class="btn btn-link" href="" data-filter=".w13"> Women's day 2013 </a></li>
+			<li><a class="btn btn-link" href="" data-filter=".joy">Joy of Giving</a></li>
+			<li><a class="btn btn-link" href="" data-filter=".tw"> TechofesWalkathon </a></li>
+			<li><a class="btn btn-link" href="" data-filter=".joy">Joy of Giving</a></li>
 
-		<!-- Tab panes -->
-		<div class="tab-content">
-			<div role="tabpanel" class="tab-pane active" id="Walkathon">
-				<div class="row">
-					<div class="content-row-class2">
-						<h3> Walkathon </h3>
+		</ul><!--/#portfolio-filter-->
+		<ul class="portfolio-items col-4">
+			<li class="portfolio-item walk">
+			<div class="item-inner">
+				<div class="portfolio-image">
+					<img src="/images/walk/w.jpg" alt="">
+					<div class="overlay">
+						<a class="preview btn btn-danger"  href="/images/walk/w.jpg"><i class="glyphicon glyphicon-eye-open">&nbsp;</i>View</a>             
 					</div>
-					<br><br>
-					<ul class="portfolio-items col-4">
-
-						<li class="portfolio-item foreign">
-
-						<img class="gall" src="/images/walk/w.jpg" alt="">
-
-						</li><!--/.portfolio-item-->
-						<li class="portfolio-item foreign">
-
-						<img class="gall" src="/images/walk/w1.jpg" alt="">
-
-						</li><!--/.portfolio-item-->
-						<li class="portfolio-item foreign">
-						<img class="gall" src="/images/walk/w2.jpg" alt="">
-
-						</li><!--/.portfolio-item-->
-						<li class="portfolio-item foreign">
-						<img class="gall" src="/images/walk/w3.jpg" alt="">
-
-						</li><!--/.portfolio-item-->
-
-						<li class="portfolio-item foreign">
-						<img  class="gall" src="/images/walk/w4.jpg" alt="">
-
-						</li><!--/.portfolio-item-->
-						<li class="portfolio-item foreign">
-
-						<img class="gall" src="/images/walk/w5.jpg" alt="">
-
-						</li><!--/.portfolio-item-->
-						<li class="portfolio-item foreign">
-						<img class="gall" src="/images/walk/w6.jpg" alt="">
-
-						</li><!--/.portfolio-item-->
-						<li class="portfolio-item foreign">
-						<img class="gall" src="/images/walk/w7.jpg" alt="">
-
-						</li><!--/.portfolio-item-->
-
-
-
-					</ul>   
-
-					<hr>
-
-				</div>
-
-			</div>
-			<div role="tabpanel" class="tab-pane" id="Inaugration">
-				<div class="row">
-					<div class="content-row-class2">
-						<h3> Inaugration</h3>
-					</div>
-					<br><br>
-					<ul class="portfolio-items col-4">
-						<li class="portfolio-item foreign">
-						<img class="gall" src="/images/inaugration/5.jpg" alt="">
-
-						</li><!--/.portfolio-item-->
-						<li class="portfolio-item foreign">
-						<img class="gall" src="/images/inaugration/2.jpg" alt="">
-						</li><!--/.portfolio-item-->
-						<li class="portfolio-item foreign">
-						<img class="gall" src="/images/inaugration/3.jpg" alt="">
-						</li><!--/.portfolio-item-->
-						<li class="portfolio-item foreign">
-						<img class="gall" src="/images/inaugration/4.jpg" alt="">
-						</li><!--/.portfolio-item-->
-						<li class="portfolio-item foreign">
-						<img class="gall" src="/images/inaugration/1.jpg" alt="">
-						</li><!--/.portfolio-item-->
-						<li class="portfolio-item foreign">
-						<img class="gall" src="/images/inaugration/6.png" alt="">
-						</li><!--/.portfolio-item-->
-						<li class="portfolio-item foreign">
-						<img class="gall" src="/images/inaugration/7.jpg" alt="">
-						</li><!--/.portfolio-item-->
-
-						<li class="portfolio-item foreign">
-						<img class="gall" src="/images/inaugration/8.jpg" alt="">
-						</li><!--/.portfolio-item-->
-
-					</ul>   
-					<hr>
-
 				</div>
 			</div>
-			<div role="tabpanel" class="tab-pane" id="Women2013">
-				<div class="row">
-					<div class="content-row-class2">
-						<h3> Women's Day Celebration 2013</h3>
+			</li><!--/.portfolio-item-->
+			<li class="portfolio-item walk">
+			<div class="item-inner">
+				<div class="portfolio-image">
+					<img src="/images/walk/w1.jpg" alt="">
+					<div class="overlay">
+						<a class="preview btn btn-danger"  href="/images/walk/w1.jpg"><i class="glyphicon glyphicon-eye-open">&nbsp;</i>View</a>             
 					</div>
-					<br><br>
-					<ul class="portfolio-items col-4">
-						<li class="portfolio-item foreign">
-						<img class="gall" src="/images/women/1c.jpg" alt="">
-						</li><!--/.portfolio-item-->
-						<li class="portfolio-item foreign">
-						<img class="gall" src="/images/women/3c.jpg" alt="">
-						</li><!--/.portfolio-item-->
-						<li class="portfolio-item foreign">
-						<img class="gall" src="/images/women/5c.jpg" alt="">
-						</li><!--/.portfolio-item-->
-						<li class="portfolio-item foreign">
-						<img class="gall" src="/images/women/7c.jpg" alt="">
-						</li><!--/.portfolio-item-->
-						<li class="portfolio-item foreign">
-						<img class="gall"src="/images/women/w1.jpg" alt="">
-						</li><!--/.portfolio-item-->
-						<li class="portfolio-item foreign">
-						<img class="gall" src="/images/women/w3.jpg" alt="">
-						</li><!--/.portfolio-item-->
-
-						<li class="portfolio-item foreign">
-						<img class="gall" src="/images/women/w2.jpg" alt="">
-						</li><!--/.portfolio-item-->
-						<li class="portfolio-item foreign">
-						<img class="gall" src="/images/women/w4.jpg" alt="">
-						</li><!--/.portfolio-item-->
-
-
-
-					</ul>   
-					<hr>
-
 				</div>
 			</div>
-			<div role="tabpanel" class="tab-pane" id="JoyofGiving">
-				<div class="row">
-					<div class="content-row-class2">
-						<h3>Joy of Giving</h3>
+			</li><!--/.portfolio-item-->
+			<li class="portfolio-item walk">
+			<div class="item-inner">
+				<div class="portfolio-image">
+					<img src="/images/walk/w2.jpg" alt="">
+					<div class="overlay">
+						<a class="preview btn btn-danger"  href="/images/walk/w2.jpg"><i class="glyphicon glyphicon-eye-open">&nbsp;</i>View</a>             
 					</div>
-					<br><br>
-					<ul class="portfolio-items col-4">
-						<li class="portfolio-item foreign">
-						<img class="gall" src="/images/jog/1.jpg" alt="">
-						</li><!--/.portfolio-item-->
-						<li class="portfolio-item foreign">
-						<img class="gall" src="/images/jog/5.jpg" alt="">
-						</li><!--/.portfolio-item-->
-						<li class="portfolio-item foreign">
-						<img class="gall" src="/images/jog/3.jpg" alt="">
-						</li><!--/.portfolio-item-->
-						<li class="portfolio-item foreign">
-						<img class="gall" src="/images/jog/4.jpg" alt="">
-						</li><!--/.portfolio-item-->
-
-						<li class="portfolio-item foreign">
-						<img class="gall" src="/images/jog/2.jpg" alt="">
-						</li><!--/.portfolio-item-->
-
-
-
-
-					</ul> 
 				</div>
 			</div>
-			<div role="tabpanel" class="tab-pane" id="TechofesWalkathon">
-				<div class="row">
-					<div class="content-row-class2">
-						<h3> Techofes Walkathon</h3>
+			</li><!--/.portfolio-item-->
+			<li class="portfolio-item walk">
+			<div class="item-inner">
+				<div class="portfolio-image">
+					<img src="/images/walk/w3.jpg" alt="">
+					<div class="overlay">
+						<a class="preview btn btn-danger"  href="/images/walk/w3.jpg"><i class="glyphicon glyphicon-eye-open">&nbsp;</i>View</a>             
 					</div>
-					<br><br>
-					<ul class="portfolio-items col-4">
-						<li class="portfolio-item foreign">
-						<img class="gall" class="gall" src="/images/twalk/t1.png" alt="">
-						</li><!--/.portfolio-item-->
-						<li class="portfolio-item foreign">
-						<img class="gall" src="/images/twalk/t2.png" alt="">
-						</li><!--/.portfolio-item-->
-						<li class="portfolio-item foreign">
-						<img class="gall" src="/images/twalk/t3.png" alt="">
-						</li><!--/.portfolio-item-->
-
-						<li class="portfolio-item foreign">
-						<img class="gall" src="/images/twalk/t5.png" alt="">
-						</li><!--/.portfolio-item-->
-						<li class="portfolio-item foreign">
-						<img class="gall" src="/images/twalk/t6.png" alt="">
-						</li><!--/.portfolio-item-->
-						<li class="portfolio-item foreign">
-						<img class="gall" src="/images/twalk/t7.png" alt="">
-						</li><!--/.portfolio-item-->
-						<li class="portfolio-item foreign">
-						<img class="gall" src="/images/twalk/t8.png" alt="">
-						</li><!--/.portfolio-item-->
-
-						<li class="portfolio-item foreign">
-						<img class="gall" src="/images/twalk/t10.png" alt="">
-						</li><!--/.portfolio-item-->
-						<li class="portfolio-item foreign">
-						<img class="gall" src="/images/twalk/t11.png" alt="">
-						</li><!--/.portfolio-item-->
-						<li class="portfolio-item foreign">
-						<img class="gall" src="/images/twalk/t12.png" alt="">
-						</li><!--/.portfolio-item-->
-						<li class="portfolio-item foreign">
-						<img class="gall" src="/images/twalk/t13.png" alt="">
-						</li><!--/.portfolio-item-->
-						<li class="portfolio-item foreign">
-						<img class="gall" src="/images/twalk/t14.png" alt="">
-						</li><!--/.portfolio-item-->
-					</ul>   
-
 				</div>
 			</div>
-			<div role="tabpanel" class="tab-pane" id="Women2014">
-				<div class="row">
-					<div class="content-row-class2"> 
-						<h3> Women's Day Celebration 2014 </h3>
+			</li><!--/.portfolio-item-->
+			<li class="portfolio-item walk">
+			<div class="item-inner">
+				<div class="portfolio-image">
+					<img src="/images/walk/w4.jpg" alt="">
+					<div class="overlay">
+						<a class="preview btn btn-danger"  href="/images/walk/w4.jpg"><i class="glyphicon glyphicon-eye-open">&nbsp;</i>View</a>             
 					</div>
-					<br><br>
-					<ul class="portfolio-items col-4">
-						<li class="portfolio-item foreign">
-						<img class="gall" src="/images/women14/1.jpg" alt="">
-						</li><!--/.portfolio-item-->
-						<li class="portfolio-item foreign">
-						<img class="gall" src="/images/women14/2.jpg" alt="">
-						</li><!--/.portfolio-item-->
-						<li class="portfolio-item foreign">
-						<img class="gall" src="/images/women14/3.jpg" alt="">
-						</li><!--/.portfolio-item-->
-						<li class="portfolio-item foreign">
-						<img class="gall" src="/images/women14/4.jpg" alt="">
-						</li><!--/.portfolio-item-->
-						<li class="portfolio-item foreign">
-						<img class="gall" src="/images/women14/5.jpg" alt="">
-						</li><!--/.portfolio-item-->
-						<li class="portfolio-item foreign">
-						<img class="gall" src="/images/women14/6.jpg" alt="">
-						</li><!--/.portfolio-item-->
-						<li class="portfolio-item foreign">
-						<img class="gall" src="/images/women14/7.jpg" alt="">
-						</li><!--/.portfolio-item-->
-						<li class="portfolio-item foreign">
-						<img class="gall" src="/images/women14/8.jpg" alt="">
-						</li><!--/.portfolio-item-->
-						<li class="portfolio-item foreign">
-						<img class="gall" src="/images/women14/9.jpg" alt="">
-						</li><!--/.portfolio-item-->
-						<li class="portfolio-item foreign">
-						<img class="gall" src="/images/women14/10.jpg" alt="">
-						</li><!--/.portfolio-item-->
-						<li class="portfolio-item foreign">
-						<img class="gall" src="/images/women14/11.jpg" alt="">
-						</li><!--/.portfolio-item-->
-						<li class="portfolio-item foreign">
-						<img class="gall" src="/images/women14/12.jpg" alt="">
-						</li><!--/.portfolio-item-->
-
-
-
-					</ul>   
-					<hr>
 				</div>
 			</div>
-		</div>
+			</li><!--/.portfolio-item-->
+			<li class="portfolio-item walk">
+			<div class="item-inner">
+				<div class="portfolio-image">
+					<img src="/images/walk/w5.jpg" alt="">
+					<div class="overlay">
+						<a class="preview btn btn-danger"  href="/images/walk/w5.jpg"><i class="glyphicon glyphicon-eye-open">&nbsp;</i>View</a>             
+					</div>
+				</div>
+			</div>
+			</li><!--/.portfolio-item-->
+			<li class="portfolio-item walk">
+			<div class="item-inner">
+				<div class="portfolio-image">
+					<img src="/images/walk/w6.jpg" alt="">
+					<div class="overlay">
+						<a class="preview btn btn-danger"  href="/images/walk/w6.jpg"><i class="glyphicon glyphicon-eye-open">&nbsp;</i>View</a>             
+					</div>
+				</div>
+			</div>
+			</li><!--/.portfolio-item-->
+			<li class="portfolio-item walk">
+			<div class="item-inner">
+				<div class="portfolio-image">
+					<img src="/images/walk/w7.jpg" alt="">
+					<div class="overlay">
+						<a class="preview btn btn-danger"  href="/images/walk/w7.jpg"><i class="glyphicon glyphicon-eye-open">&nbsp;</i>View</a>             
+					</div>
+				</div>
+			</div>
+			</li><!--/.portfolio-item-->
+			&nbsp;&nbsp;
 
+
+			<!--Inaugration -->
+			<li class="portfolio-item inaug">
+			<div class="item-inner">
+				<div class="portfolio-image">
+					<img src="/images/inaugration/1.jpg" alt="">
+					<div class="overlay">
+						<a class="preview btn btn-danger" href="/images/inaugration/1.jpg"><i class="glyphicon glyphicon-eye-open">&nbsp;</i>View</a>             
+					</div>
+				</div>
+			</div>
+			</li><!--/.portfolio-item-->
+			<li class="portfolio-item inaug">
+			<div class="item-inner">
+				<div class="portfolio-image">
+					<img src="/images/inaugration/2.jpg" alt="">
+					<div class="overlay">
+						<a class="preview btn btn-danger" href="/images/inaugration/2.jpg"><i class="glyphicon glyphicon-eye-open">&nbsp;</i>View</a>             
+					</div>
+				</div>
+			</div>
+			</li><!--/.portfolio-item-->
+			<li class="portfolio-item inaug">
+			<div class="item-inner">
+				<div class="portfolio-image">
+					<img src="/images/inaugration/3.jpg" alt="">
+					<div class="overlay">
+						<a class="preview btn btn-danger" href="/images/inaugration/3.jpg"><i class="glyphicon glyphicon-eye-open">&nbsp;</i>View</a>             
+					</div>
+				</div>
+			</div>
+			</li><!--/.portfolio-item-->
+			<li class="portfolio-item inaug">
+			<div class="item-inner">
+				<div class="portfolio-image">
+					<img src="/images/inaugration/4.jpg" alt="">
+					<div class="overlay">
+						<a class="preview btn btn-danger" href="/images/inaugration/4.jpg"><i class="glyphicon glyphicon-eye-open">&nbsp;</i>View</a>             
+					</div>
+				</div>
+			</div>
+			</li><!--/.portfolio-item-->
+			<li class="portfolio-item inaug">
+			<div class="item-inner">
+				<div class="portfolio-image">
+					<img src="/images/inaugration/5.jpg" alt="">
+					<div class="overlay">
+						<a class="preview btn btn-danger" href="/images/inaugration/5.jpg"><i class="glyphicon glyphicon-eye-open">&nbsp;</i>View</a>             
+					</div>
+				</div>
+			</div>
+			</li><!--/.portfolio-item-->
+			<li class="portfolio-item inaug">
+			<div class="item-inner">
+				<div class="portfolio-image">
+					<img src="/images/inaugration/6.png" alt="">
+					<div class="overlay">
+						<a class="preview btn btn-danger" href="/images/inaugration/6.png"><i class="glyphicon glyphicon-eye-open">&nbsp;</i>View</a>             
+					</div>
+				</div>
+			</div>
+			</li><!--/.portfolio-item-->
+			<li class="portfolio-item inaug">
+			<div class="item-inner">
+				<div class="portfolio-image">
+					<img src="/images/inaugration/7.jpg" alt="">
+					<div class="overlay">
+						<a class="preview btn btn-danger" href="/images/inaugration/7.jpg"><i class="glyphicon glyphicon-eye-open">&nbsp;</i>View</a>             
+					</div>
+				</div>
+			</div>
+			</li><!--/.portfolio-item-->
+			<li class="portfolio-item inaug">
+			<div class="item-inner">
+				<div class="portfolio-image">
+					<img src="/images/inaugration/8.jpg" alt="">
+					<div class="overlay">
+						<a class="preview btn btn-danger" href="/images/inaugration/8.jpg"><i class="glyphicon glyphicon-eye-open">&nbsp;</i>View</a>             
+					</div>
+				</div>
+			</div>
+			</li><!--/.portfolio-item-->
+
+			<li class="portfolio-item w13">
+			<div class="item-inner">
+				<div class="portfolio-image">
+					<img src="/images/women/w1.jpg" alt="">
+					<div class="overlay">
+						<a class="preview btn btn-danger" href="/images/women/w1.jpg"><i class="glyphicon glyphicon-eye-open">&nbsp;</i>View</a>             
+					</div>
+				</div>
+			</div>
+			</li><!--/.portfolio-item-->
+
+			<li class="portfolio-item w13">
+			<div class="item-inner">
+				<div class="portfolio-image">
+					<img src="/images/women/w2.jpg" alt="">
+					<div class="overlay">
+						<a class="preview btn btn-danger" href="/images/women/w2.jpg"><i class="glyphicon glyphicon-eye-open">&nbsp;</i>View</a>             
+					</div>
+				</div>
+			</div>
+			</li><!--/.portfolio-item-->
+			<li class="portfolio-item w13">
+			<div class="item-inner">
+				<div class="portfolio-image">
+					<img src="/images/women/w3.jpg" alt="">
+					<div class="overlay">
+						<a class="preview btn btn-danger" href="/images/women/w3.jpg"><i class="glyphicon glyphicon-eye-open">&nbsp;</i>View</a>             
+					</div>
+				</div>
+			</div>
+			</li><!--/.portfolio-item-->
+			<li class="portfolio-item w13">
+			<div class="item-inner">
+				<div class="portfolio-image">
+					<img src="/images/women/w4.jpg" alt="">
+					<div class="overlay">
+						<a class="preview btn btn-danger" href="/images/women/w4.jpg"><i class="glyphicon glyphicon-eye-open">&nbsp;</i>View</a>             
+					</div>
+				</div>
+			</div>
+			</li><!--/.portfolio-item-->
+
+			<li class="portfolio-item w13">
+			<div class="item-inner">
+				<div class="portfolio-image">
+					<img src="/images/women/1c.jpg" alt="">
+					<div class="overlay">
+						<a class="preview btn btn-danger" href="/images/women/1c.jpg"><i class="glyphicon glyphicon-eye-open">&nbsp;</i>View</a>             
+					</div>
+				</div>
+			</div>
+			</li><!--/.portfolio-item-->
+
+			<li class="portfolio-item w13">
+			<div class="item-inner">
+				<div class="portfolio-image">
+					<img src="/images/women/3c.jpg" alt="">
+					<div class="overlay">
+						<a class="preview btn btn-danger" href="/images/women/3c.jpg"><i class="glyphicon glyphicon-eye-open">&nbsp;</i>View</a>             
+					</div>
+				</div>
+			</div>
+			</li><!--/.portfolio-item-->
+			<li class="portfolio-item w13">
+			<div class="item-inner">
+				<div class="portfolio-image">
+					<img src="/images/women/5c.jpg" alt="">
+					<div class="overlay">
+						<a class="preview btn btn-danger" href="/images/women/5c.jpg"><i class="glyphicon glyphicon-eye-open">&nbsp;</i>View</a>             
+					</div>
+				</div>
+			</div>
+			</li><!--/.portfolio-item-->
+			<li class="portfolio-item w13">
+			<div class="item-inner">
+				<div class="portfolio-image">
+					<img src="/images/women/7c.jpg" alt="">
+					<div class="overlay">
+						<a class="preview btn btn-danger" href="/images/women/7c.jpg"><i class="glyphicon glyphicon-eye-open">&nbsp;</i>View</a>             
+					</div>
+				</div>
+			</div>
+			</li><!--/.portfolio-item-->
+
+
+
+			<li class="portfolio-item joy">
+			<div class="item-inner">
+				<div class="portfolio-image">
+					<img src="/images/jog/1.jpg" alt="">
+					<div class="overlay">
+						<a class="preview btn btn-danger"  href="/images/jog/1.jpg"><i class="glyphicon glyphicon-eye-open">&nbsp;</i>View</a>             
+					</div>
+				</div>
+			</div>
+			</li><!--/.portfolio-item-->
+
+			<li class="portfolio-item joy">
+			<div class="item-inner">
+				<div class="portfolio-image">
+					<img src="/images/jog/2.jpg" alt="">
+					<div class="overlay">
+						<a class="preview btn btn-danger"  href="/images/jog/2.jpg"><i class="glyphicon glyphicon-eye-open">&nbsp;</i>View</a>             
+					</div>
+				</div>
+			</div>
+			</li><!--/.portfolio-item-->
+
+			<li class="portfolio-item joy">
+			<div class="item-inner">
+				<div class="portfolio-image">
+					<img src="/images/jog/3.jpg" alt="">
+					<div class="overlay">
+						<a class="preview btn btn-danger"  href="/images/jog/3.jpg"><i class="glyphicon glyphicon-eye-open">&nbsp;</i>View</a>             
+					</div>
+				</div>
+			</div>
+			</li><!--/.portfolio-item-->
+
+			<li class="portfolio-item joy">
+			<div class="item-inner">
+				<div class="portfolio-image">
+					<img src="/images/jog/4.jpg" alt="">
+					<div class="overlay">
+						<a class="preview btn btn-danger"  href="/images/jog/4.jpg"><i class="glyphicon glyphicon-eye-open">&nbsp;</i>View</a>             
+					</div>
+				</div>
+			</div>
+			</li><!--/.portfolio-item-->
+
+			<li class="portfolio-item joy">
+			<div class="item-inner">
+				<div class="portfolio-image">
+					<img src="/images/jog/5.jpg" alt="">
+					<div class="overlay">
+						<a class="preview btn btn-danger"  href="/images/jog/5.jpg"><i class="glyphicon glyphicon-eye-open">&nbsp;</i>View</a>             
+					</div>
+				</div>
+			</div>
+			</li><!--/.portfolio-item-->
+
+
+
+			<li class="portfolio-item tw">
+			<div class="item-inner">
+				<div class="portfolio-image">
+					<img src="/images/twalk/t1.png" alt="">
+					<div class="overlay">
+						<a class="preview btn btn-danger"  href="/images/twalk/t1.png"><i class="glyphicon glyphicon-eye-open">&nbsp;</i>View</a>             
+					</div>
+				</div>
+			</div>
+			</li><!--/.portfolio-item-->
+			<li class="portfolio-item tw">
+			<div class="item-inner">
+				<div class="portfolio-image">
+					<img src="/images/twalk/t2.png" alt="">
+					<div class="overlay">
+						<a class="preview btn btn-danger"  href="/images/twalk/t2.png"><i class="glyphicon glyphicon-eye-open">&nbsp;</i>View</a>             
+					</div>
+				</div>
+			</div>
+			</li><!--/.portfolio-item-->
+			<li class="portfolio-item tw">
+			<div class="item-inner">
+				<div class="portfolio-image">
+					<img src="/images/twalk/t3.png" alt="">
+					<div class="overlay">
+						<a class="preview btn btn-danger"  href="/images/twalk/t3.png"><i class="glyphicon glyphicon-eye-open">&nbsp;</i>View</a>             
+					</div>
+				</div>
+			</div>
+			</li><!--/.portfolio-item-->
+			<li class="portfolio-item tw">
+			<div class="item-inner">
+				<div class="portfolio-image">
+					<img src="/images/twalk/t4.png" alt="">
+					<div class="overlay">
+						<a class="preview btn btn-danger"  href="/images/twalk/t4.png"><i class="glyphicon glyphicon-eye-open">&nbsp;</i>View</a>             
+					</div>
+				</div>
+			</div>
+			</li><!--/.portfolio-item-->
+			<li class="portfolio-item tw">
+			<div class="item-inner">
+				<div class="portfolio-image">
+					<img src="/images/twalk/t5.png" alt="">
+					<div class="overlay">
+						<a class="preview btn btn-danger"  href="/images/twalk/t5.png"><i class="glyphicon glyphicon-eye-open">&nbsp;</i>View</a>             
+					</div>
+				</div>
+			</div>
+			</li><!--/.portfolio-item-->
+			<li class="portfolio-item tw">
+			<div class="item-inner">
+				<div class="portfolio-image">
+					<img src="/images/twalk/t6.png" alt="">
+					<div class="overlay">
+						<a class="preview btn btn-danger"  href="/images/twalk/t6.png"><i class="glyphicon glyphicon-eye-open">&nbsp;</i>View</a>             
+					</div>
+				</div>
+			</div>
+			</li><!--/.portfolio-item-->
+			<li class="portfolio-item tw">
+			<div class="item-inner">
+				<div class="portfolio-image">
+					<img src="/images/twalk/t7.png" alt="">
+					<div class="overlay">
+						<a class="preview btn btn-danger"  href="/images/twalk/t7.png"><i class="glyphicon glyphicon-eye-open">&nbsp;</i>View</a>             
+					</div>
+				</div>
+			</div>
+			</li><!--/.portfolio-item-->
+			<li class="portfolio-item tw">
+			<div class="item-inner">
+				<div class="portfolio-image">
+					<img src="/images/twalk/t8.png" alt="">
+					<div class="overlay">
+						<a class="preview btn btn-danger"  href="/images/twalk/t8.png"><i class="glyphicon glyphicon-eye-open">&nbsp;</i>View</a>             
+					</div>
+				</div>
+			</div>
+			</li><!--/.portfolio-item-->
+			<li class="portfolio-item tw">
+			<div class="item-inner">
+				<div class="portfolio-image">
+					<img src="/images/twalk/t9.png" alt="">
+					<div class="overlay">
+						<a class="preview btn btn-danger"  href="/images/twalk/t9.png"><i class="glyphicon glyphicon-eye-open">&nbsp;</i>View</a>             
+					</div>
+				</div>
+			</div>
+			</li><!--/.portfolio-item-->
+			<li class="portfolio-item tw">
+			<div class="item-inner">
+				<div class="portfolio-image">
+					<img src="/images/twalk/t11.png" alt="">
+					<div class="overlay">
+						<a class="preview btn btn-danger"  href="/images/twalk/t11.png"><i class="glyphicon glyphicon-eye-open">&nbsp;</i>View</a>             
+					</div>
+				</div>
+			</div>
+			</li><!--/.portfolio-item-->
+			<li class="portfolio-item tw">
+			<div class="item-inner">
+				<div class="portfolio-image">
+					<img src="/images/twalk/t12.png" alt="">
+					<div class="overlay">
+						<a class="preview btn btn-danger"  href="/images/twalk/t12.png"><i class="glyphicon glyphicon-eye-open">&nbsp;</i>View</a>             
+					</div>
+				</div>
+			</div>
+			</li><!--/.portfolio-item-->
+			<li class="portfolio-item tw">
+			<div class="item-inner">
+				<div class="portfolio-image">
+					<img src="/images/twalk/t13.png" alt="">
+					<div class="overlay">
+						<a class="preview btn btn-danger"  href="/images/twalk/t13.png"><i class="glyphicon glyphicon-eye-open">&nbsp;</i>View</a>             
+					</div>
+				</div>
+			</div>
+			</li><!--/.portfolio-item-->
+			<li class="portfolio-item tw">
+			<div class="item-inner">
+				<div class="portfolio-image">
+					<img src="/images/twalk/t14.png" alt="">
+					<div class="overlay">
+						<a class="preview btn btn-danger"  href="/images/twalk/t14.png"><i class="glyphicon glyphicon-eye-open">&nbsp;</i>View</a>             
+					</div>
+				</div>
+			</div>
+			</li><!--/.portfolio-item-->
+			<li class="portfolio-item tw">
+			<div class="item-inner">
+				<div class="portfolio-image">
+					<img src="/images/twalk/t10.png" alt="">
+					<div class="overlay">
+						<a class="preview btn btn-danger"  href="/images/twalk/t10.png"><i class="glyphicon glyphicon-eye-open">&nbsp;</i>View</a>             
+					</div>
+				</div>
+			</div>
+			</li><!--/.portfolio-item-->
+			<li class="portfolio-item tw">
+			<div class="item-inner">
+				<div class="portfolio-image">
+					<img src="/images/twalk/t10.png" alt="">
+					<div class="overlay">
+						<a class="preview btn btn-danger"  href="/images/twalk/t10.png"><i class="glyphicon glyphicon-eye-open">&nbsp;</i>View</a>             
+					</div>
+				</div>
+			</div>
+			</li><!--/.portfolio-item-->
+
+
+			<li class="portfolio-item w14">
+			<div class="item-inner">
+				<div class="portfolio-image">
+					<img src="/images/women14/1.jpg" alt="">
+					<div class="overlay">
+						<a class="preview btn btn-danger"  href="/images/women14/1.jpg"><i class="glyphicon glyphicon-eye-open">&nbsp;</i>View</a>             
+					</div>
+				</div>
+			</div>
+			</li><!--/.portfolio-item-->
+			<li class="portfolio-item w14">
+			<div class="item-inner">
+				<div class="portfolio-image">
+					<img src="/images/women14/2.jpg" alt="">
+					<div class="overlay">
+						<a class="preview btn btn-danger"  href="/images/women14/2.jpg"><i class="glyphicon glyphicon-eye-open">&nbsp;</i>View</a>             
+					</div>
+				</div>
+			</div>
+			</li><!--/.portfolio-item-->
+			<li class="portfolio-item w14">
+			<div class="item-inner">
+				<div class="portfolio-image">
+					<img src="/images/women14/3.jpg" alt="">
+					<div class="overlay">
+						<a class="preview btn btn-danger"  href="/images/women14/3.jpg"><i class="glyphicon glyphicon-eye-open">&nbsp;</i>View</a>             
+					</div>
+				</div>
+			</div>
+			</li><!--/.portfolio-item-->
+			<li class="portfolio-item w14">
+			<div class="item-inner">
+				<div class="portfolio-image">
+					<img src="/images/women14/4.jpg" alt="">
+					<div class="overlay">
+						<a class="preview btn btn-danger"  href="/images/women14/4.jpg"><i class="glyphicon glyphicon-eye-open">&nbsp;</i>View</a>             
+					</div>
+				</div>
+			</div>
+			</li><!--/.portfolio-item-->
+			<li class="portfolio-item w14">
+			<div class="item-inner">
+				<div class="portfolio-image">
+					<img src="/images/women14/5.jpg" alt="">
+					<div class="overlay">
+						<a class="preview btn btn-danger"  href="/images/women14/5.jpg"><i class="glyphicon glyphicon-eye-open">&nbsp;</i>View</a>             
+					</div>
+				</div>
+			</div>
+			</li><!--/.portfolio-item-->
+			<li class="portfolio-item w14">
+			<div class="item-inner">
+				<div class="portfolio-image">
+					<img src="/images/women14/6.jpg" alt="">
+					<div class="overlay">
+						<a class="preview btn btn-danger"  href="/images/women14/6.jpg"><i class="glyphicon glyphicon-eye-open">&nbsp;</i>View</a>             
+					</div>
+				</div>
+			</div>
+			</li><!--/.portfolio-item-->
+
+
+
+			<li class="portfolio-item w14">
+			<div class="item-inner">
+				<div class="portfolio-image">
+					<img src="/images/women14/7.jpg" alt="">
+					<div class="overlay">
+						<a class="preview btn btn-danger"  href="/images/women14/7.jpg"><i class="glyphicon glyphicon-eye-open">&nbsp;</i>View</a>             
+					</div>
+				</div>
+			</div>
+			</li><!--/.portfolio-item-->
+			<li class="portfolio-item w14">
+			<div class="item-inner">
+				<div class="portfolio-image">
+					<img src="/images/women14/8.jpg" alt="">
+					<div class="overlay">
+						<a class="preview btn btn-danger"  href="/images/women14/8.jpg"><i class="glyphicon glyphicon-eye-open">&nbsp;</i>View</a>             
+					</div>
+				</div>
+			</div>
+			</li><!--/.portfolio-item-->
+			<li class="portfolio-item w14">
+			<div class="item-inner">
+				<div class="portfolio-image">
+					<img src="/images/women14/9.jpg" alt="">
+					<div class="overlay">
+						<a class="preview btn btn-danger"  href="/images/women14/9.jpg"><i class="glyphicon glyphicon-eye-open">&nbsp;</i>View</a>             
+					</div>
+				</div>
+			</div>
+			</li><!--/.portfolio-item-->
+			<li class="portfolio-item w14">
+			<div class="item-inner">
+				<div class="portfolio-image">
+					<img src="/images/women14/10.jpg" alt="">
+					<div class="overlay">
+						<a class="preview btn btn-danger"  href="/images/women14/10.jpg"><i class="glyphicon glyphicon-eye-open">&nbsp;</i>View</a>             
+					</div>
+				</div>
+			</div>
+			</li><!--/.portfolio-item-->
+			<li class="portfolio-item w14">
+			<div class="item-inner">
+				<div class="portfolio-image">
+					<img src="/images/women14/11.jpg" alt="">
+					<div class="overlay">
+						<a class="preview btn btn-danger"  href="/images/women14/11.jpg"><i class="glyphicon glyphicon-eye-open">&nbsp;</i>View</a>             
+					</div>
+				</div>
+			</div>
+			</li><!--/.portfolio-item-->
+			<li class="portfolio-item w14">
+			<div class="item-inner">
+				<div class="portfolio-image">
+					<img src="/images/women14/12.jpg" alt="">
+					<div class="overlay">
+						<a class="preview btn btn-danger"  href="/images/women14/12.jpg"><i class="glyphicon glyphicon-eye-open">&nbsp;</i>View</a>             
+					</div>
+				</div>
+			</div>
+			</li><!--/.portfolio-item-->
+
+
+
+
+
+		</ul>   
 	</div>
 
 
 
 
-
-
-
-</div>          
-
+</div>
 
 
 <!-- Contents ends here -->
@@ -371,6 +696,12 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 </div>
 
 <!-- Footer ends here-->
+
+<script src="/js/jquery.js"></script>
+<script src="/js/bootstrap.min.js"></script>
+<script src="/js/jquery.isotope.min.js"></script>
+<script src="/js/jquery.prettyPhoto.js"></script>
+<script src="/js/main.js"></script></body>
 
 </body>
 </html>     
