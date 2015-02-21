@@ -29,3 +29,32 @@ img:hover.gall {
 
 
 
+.back {
+    transform: rotateY(180deg);
+}
+.flip-container, .front, .back {
+    width: 320px;
+    height: 290px;
+}
+
+.flip-container, .front, .back {
+    width: 320px;
+    height: 290px;
+}
+* {
+    box-sizing: border-box;
+}
+.text-center {
+    text-align: center;
+}
+body {
+    font-family: Roboto;
+    font-size: 14px;
+    color: #454545;
+}
+body {
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 14px;
+    line-height: 1.42857;
+    color: #333;
+}
